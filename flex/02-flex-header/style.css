@@ -2,33 +2,18 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
-  flex-direction: row;
-  flex: 1;
+  padding: 8px;
+  align-items: center;
   justify-content: space-between;
 }
 
-.left-links {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-}
 
-.right-links {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-}
 .logo {
   font-size: 48px;
   font-weight: 900;
   color: tomato;
   background: white;
   padding: 4px 32px;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
 }
 
 ul {
@@ -36,6 +21,8 @@ ul {
   list-style-type: none;
   display: flex;
   padding: 0;
+  margin: 0;
+  gap: 8px;
 }
 
 a {
@@ -44,9 +31,5 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
-}
-
-li {
-  margin: 10px;
 }
 
